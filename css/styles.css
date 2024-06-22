@@ -1137,6 +1137,8 @@ img {
 
    .footer-container {
       display: flex;
+      flex-direction: row;
+      width: 584px;
       gap: 72px 24px;
       flex-wrap: wrap;
    }
@@ -1312,7 +1314,7 @@ img {
 .modal-form {
    border-radius: 4px;
    /* width: 360px; */
-   width: 256px;
+   /* width: 256px; */
    /* height: 336px; */
 }
 
@@ -1367,7 +1369,7 @@ img {
 
 .comment-box {
    /* width: 360px; */
-   width: 256px;
+   /* width: 256px; */
    margin-bottom: 16px;
    /* height: 120px; */
 }
